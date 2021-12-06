@@ -74,7 +74,7 @@ function Notification(props) {
                 variant="body1"
                 to={`/user/${notification.recipient}/scream/${notification.postId}`}
               >
-                {notification.sender} {verb} your scream {time}
+                {notification.sender} {verb} your post {time}
               </Typography>
             </MenuItem>;
           })

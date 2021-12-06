@@ -12,7 +12,7 @@ import { withStyles } from '@mui/styles';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { likePost, unlikePost } from '../redux/actions/dataActions';
-import { Chat, Favorite, FavoriteBorder } from '@mui/icons-material';
+import Chat from '@mui/icons-material/Chat';
 import PostDialog from './PostDialog';
 import LikeButton from './LikeButton';
 

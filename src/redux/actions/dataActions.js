@@ -89,6 +89,7 @@ export const submitComment = (postId, commentData) => (dispatch) => {
     .catch((error) => {
       console.error(error);
     });
+  getPosts();
 };
 
 export const getUserData = (username) => (dispatch) => {
