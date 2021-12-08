@@ -27,6 +27,7 @@ function CommentForm(props) {
   const handleSubmit = (event) => {
     event.preventDefault();
     props.submitComment(props.postId, { content: content });
+    setContent('');
   };
 
   return (
